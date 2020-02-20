@@ -1,16 +1,35 @@
 # react-butterfly-chart
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+React Butterfly Chart allows you to make a simple, stylish butterfly chart component, best sutied for comparing two groups of data with the same paramaters. 
 
-Describe react-butterfly-chart here.
+## Demo
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+![](demo_gif.gif)
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+### Installation
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Example use
+
+```
+<ButterflyChart
+    titleLeft="Democrats"
+    titleRight="Republicans"
+    leftData={leftElectionData}
+    rightData={rightElectionData}
+    labelField="state"
+    dataField="candidatevotes"
+    leftColor="#2AA1EC" 
+    rightColor="#FE6A59"
+/>
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

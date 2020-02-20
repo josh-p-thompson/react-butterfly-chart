@@ -2,7 +2,10 @@ import React, {Component} from 'react'
 import {render} from 'react-dom'
 import { ButterflyChart } from '../../src';
 
+import './index.css';
 import electionData from './electionData.json';
+import populationData from './populationData.json';
+
 let leftElectionData = []; 
 let rightElectionData = [];     
 for (let row of Object.values(electionData)) {
@@ -15,7 +18,6 @@ for (let row of Object.values(electionData)) {
   }
 }
 
-import populationData from './populationData.json';
 let leftPopulationData = []; 
 let rightPopulationData = [];     
 for (let row of Object.values(populationData)) {
@@ -29,9 +31,10 @@ for (let row of Object.values(populationData)) {
 class Demo extends Component {
 
   render() {
-    return <div>
+    return <div className="App">
       <div>
-        <h1>Election Data</h1>
+        <h1 className="CategoryTitle" >Election Data</h1>
+        <hr />
         <ButterflyChart
           titleLeft="Democrats"
           titleRight="Republicans"
@@ -44,9 +47,9 @@ class Demo extends Component {
         />
       </div>
       <br></br>
-      <br></br>
       <div>
-        <h1>Population Data</h1>
+        <h1 className="CategoryTitle" >Population Data</h1>
+        <hr />
         <ButterflyChart
           titleLeft="Male"
           titleRight="Female"
