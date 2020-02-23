@@ -29,7 +29,7 @@ npm install react-butterfly-chart
 />
 ```
 
-## Props & How To
+## Props
  * ```titleLeft``` - title that appears on the left side of the chart
  * ```titleRight``` - title that appears on the right side of the chart
  * ```leftData``` - data that appears on the left side of the chart
