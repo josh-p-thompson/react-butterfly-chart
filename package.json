@@ -1,6 +1,6 @@
 {
   "name": "react-butterfly-chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make a simple, elegant butterfly chart component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,8 +17,7 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
@@ -31,16 +30,16 @@
   "homepage": "",
   "license": "MIT",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "https://github.com/josh-p-thompson/react-butterfly-chart.git"
   },
   "keywords": [
-    "react-component", 
-    "butterfly", 
-    "chart", 
-    "butterfly-chart", 
-    "react", 
-    "tornado", 
+    "react-component",
+    "butterfly",
+    "chart",
+    "butterfly-chart",
+    "react",
+    "tornado",
     "tornado-chart"
   ]
 }
