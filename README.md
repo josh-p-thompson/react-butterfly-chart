@@ -39,7 +39,7 @@ npm install react-butterfly-chart
  * ```leftColor``` - hexcolor for left bars
  * ```rightcolor``` - hexcolor for right bars
    
-Data should be provided as an object in "row" format and **always include a ```percentage``` field** that the component will use to determine the width of the bar. ```percentage``` field should be provided as an integer. ```label``` and ```data``` fields should be passed pre-formatted. For example: 
+Data should be provided as an object in "row" format and **always include a ```percentage``` field** that the component will use to determine the width of the bar. ```percentage``` field should be provided as an integer. ```label``` and ```data``` fields should be passed in the format that you want displayed. For example: 
 ```
 data = {
     "0":{
