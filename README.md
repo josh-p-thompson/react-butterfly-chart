@@ -6,7 +6,7 @@ Butterfly Charts are best suited for comparing two groups with the same paramate
 
 ## Demo
 
-View (live Demo)[https://josh-p-thompson.github.io/react-butterfly-chart/]
+View !(live Demo)[https://josh-p-thompson.github.io/react-butterfly-chart/]
 
 ![](demo_gif.gif)
 
