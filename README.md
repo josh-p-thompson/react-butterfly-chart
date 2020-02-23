@@ -1,12 +1,14 @@
 # react-butterfly-chart
 
-React Butterfly Chart allows you to make a simple, stylish butterfly chart component, best sutied for comparing two groups of data with the same paramaters. 
+React Butterfly Chart allows you to make a simple, elegant butterfly chart component. 
+
+Butterfly Charts are best suited for comparing two groups with the same paramaters, like election results or population data.
 
 ## Demo
 
 ![](demo_gif.gif)
 
-### Installation
+## Installation
 
 What things you need to install the software and how to install them
 
@@ -14,7 +16,7 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### Example use
+## Example use
 
 ```
 <ButterflyChart
@@ -32,4 +34,4 @@ Give examples
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
