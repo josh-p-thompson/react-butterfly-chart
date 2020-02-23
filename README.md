@@ -28,7 +28,7 @@ npm install react-butterfly-chart
     rightColor="#FE6A59"
 />
 ```
-Data should be provided as objects where each data is in "row" format. For example: 
+Data should be provided as an object in "row" format. For example: 
 ```
 data = {
     "0":{
@@ -40,6 +40,7 @@ data = {
         "population": "45M",
     }
 }
+Take care to provide an equal number of rows to each side.
 ```
 
 ## License

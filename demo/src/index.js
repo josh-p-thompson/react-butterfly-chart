@@ -32,6 +32,14 @@ class Demo extends Component {
 
   render() {
     return <div className="App">
+      <div className="AppTitle">
+        <div className="AppTitle-title">
+          React Butterfly Chart
+        </div>
+        <div className="AppTitle-github">
+          <a href="https://github.com/josh-p-thompson/react-butterfly-chart" target="_blank">View on GitHub</a>
+        </div>
+      </div>
       <div>
         <h1 className="CategoryTitle" >Election Data</h1>
         <hr />

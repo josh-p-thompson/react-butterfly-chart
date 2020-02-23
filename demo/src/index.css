@@ -4,6 +4,22 @@
     align-items: center;
 }
 
+.AppTitle-title {
+    font-family: 'Athiti', sans-serif;
+    font-size: 4rem;
+}
+
+.AppTitle-github {
+    font-family: 'Athiti', sans-serif;
+    margin-top: -1rem; 
+    display: flex; 
+    justify-content: center;
+}
+
+.AppTitle-github a {
+    text-decoration: none;
+}
+
 .CategoryTitle {
     font-family: 'Athiti', sans-serif;
 }
