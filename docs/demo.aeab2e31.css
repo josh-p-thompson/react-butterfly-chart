@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Athiti&display=swap);
+.ButterflyChart {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr; 
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px; 
+    padding-top: 0;
+    width: 800px; 
+    font-family: 'Athiti', sans-serif;
+}
+
+.Title {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.ButterflyChart-left {
+    grid-column: 1;
+    grid-row: 2; 
+    width: 100%; 
+}
+
+.ButterflyChart-divider {
+    grid-column: 2; 
+    grid-row: 2; 
+    background-color: darkslategray; 
+    height: 100%; 
+    width: 100%; 
+}
+
+.ButterflyChart-right {
+    grid-row: 2; 
+    grid-column: 3;
+    width: 100%; 
+}
+
+@media screen and (max-width: 850px) { 
+    .ButterflyChart {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) { 
+    .ButterflyChart {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 650px) { 
+    .ButterflyChart {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    .ButterflyChart {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .ButterflyChart {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) { 
+    .ButterflyChart {
+        width: 200px;
+    }
+}
+.ChartRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 5px; 
+    min-height: 50px;
+}
+    
+.ChartRow:first-child {
+    margin-top: 10px;
+}
+
+.ChartRow:last-child {
+    margin-bottom: 10px;
+}
+
+.ChartRow-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-pack: end; 
+        -ms-flex-pack: end; 
+            justify-content: flex-end;
+}
+  
+.u-dottedLine {
+    height: 50%; 
+    border-top: 1px dotted darkslategray; 
+    min-width: 20px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-left: 4px; 
+    margin-right: 4px; 
+}
+
+.ChartRow-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: .5px solid darkslategray;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 40px;
+    padding: 2px;
+    color: white;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s; 
+    -o-text-overflow: clip; 
+       text-overflow: clip;
+}
+  
+.LeftBar {
+    border-right: 0; 
+}
+  
+.RightBar {
+    border-left: 0; 
+}
+  
+.ChartRow-bar:hover {
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.2);
+            box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    -webkit-transform: translate3d(0,-2px,0);
+            transform: translate3d(0,-2px,0);
+    cursor: pointer;
+}
+  
+
+@media screen and (max-width: 850px) { 
+    .u-dottedLine {
+        min-width: 5px;
+    }
+}
+
+.Title {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr; 
+    grid-template-rows: auto;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 800px; 
+  }
+  
+.Title-left {
+    grid-column: 1; 
+    grid-row: 1; 
+}
+
+.Title-right {
+    grid-column: 3; 
+    grid-row: 1; 
+}
+
+@media screen and (max-width: 850px) { 
+    .Title {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px) { 
+    .Title {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 650px) { 
+    .Title {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    .Title {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .Title {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 350px) { 
+    .Title {
+        width: 200px;
+    }
+}
+.App {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: column; 
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.AppTitle-title {
+    font-family: 'Athiti', sans-serif;
+    font-size: 4rem;
+}
+
+.AppTitle-github {
+    font-family: 'Athiti', sans-serif;
+    margin-top: -1rem; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+            justify-content: center;
+}
+
+.AppTitle-github a {
+    text-decoration: none;
+}
+
+.CategoryTitle {
+    font-family: 'Athiti', sans-serif;
+}
+
+/*# sourceMappingURL=demo.aeab2e31.css.map*/
