@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactTooltip from 'react-tooltip'
 import './ChartRow.css';
 
 class ChartRow extends Component {
