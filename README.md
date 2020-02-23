@@ -10,10 +10,8 @@ Butterfly Charts are best suited for comparing two groups with the same paramate
 
 ## Installation
 
-What things you need to install the software and how to install them
-
 ```
-Give examples
+npm install react-butterfly-chart
 ```
 
 ## Example use
@@ -30,7 +28,19 @@ Give examples
     rightColor="#FE6A59"
 />
 ```
-
+Data should be provided as objects where each data is in "row" format. For example: 
+```
+data = {
+    "0":{
+        "group": "81-100", 
+        "population": "30M",
+    },
+    "1":{
+        "group": "41-60", 
+        "population": "45M",
+    }
+}
+```
 
 ## License
 
